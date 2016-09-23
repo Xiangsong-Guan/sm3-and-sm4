@@ -1,0 +1,30 @@
+
+No.1 project_c_sm4. 
+
+ansi c, no others dependence.
+
+----------------------------------
+
+project is created on 2016/03/01.
+
+project is finshed on 2016/03/03.
+
+this project is completed in ubuntu-14.04.1-server-64.
+
+-----------------------------------------------------------
+
+source last updated on 2016/03/03, in windows-8.1-64.
+
+source_list : sm4.c
+			  sm4.h
+			  sm4_test.c (test code.)
+			  
+source_update_log : #2016/03/04 all# make the source files to be dos/windows file-style.
+					#2016/03/06 all# change the header declaration position.
+
+-------------------------------------------------------------------------------------------
+
+bin last released on 2016/03/06, released with gcc-4.9.3-32 (option -O3), in windows-8.1-64.
+
+bin_list : sm4_test.exe (for test.)
+
