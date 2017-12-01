@@ -1,5 +1,10 @@
 # 国密公开算法sm3/sm4
 
+* 强调！本实现没有经过详尽的测试与安全实现的考虑，只用于加深对算法的理解。
+* 注意！本实现当前存在实现错误，任何在54-63字节的输入均无法得到预期的输出。
+* Emphasize! This implementation does not go through a detailed test and safety considerations, only to deepen the * understanding of the algorithm.
+* Note! Currently there is an implementation mistake in padding process, and any input of 54-63 bytes can not get the expected output.
+
 【标准 c 】写成，适应所有平台，包括 32bit 和 64bit。算法文档详见国家密码管理局网站。
 
 * 本实现试图还原官方文档的流程，忠实地对每一个步骤做出了划分，故实际应用中还有优化的余地。
