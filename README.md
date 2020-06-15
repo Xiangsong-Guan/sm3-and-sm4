@@ -1,8 +1,8 @@
 # 国密公开算法sm3/sm4
 
 * 本实现没有经过详尽的测试与安全实现的考虑，只用于加深对算法的理解。
-* 本实现当前存在实现错误，任何在54-63字节的输入均无法得到预期的输出（Issue #1）。
-* This implementation does not go through a detailed test and safety considerations, only to deepen the * understanding of the algorithm.
+* 本实现当前存在实现错误，任何在54-63字节的输入均无法得到预期的输出：[Issue #1](https://github.com/Xiangsong-Guan/sm3-and-sm4/issues/1)
+* This implementation does not go through a detailed test and safety considerations, only to deepen the understanding of the algorithm.
 * Currently there is an implementation mistake in padding process, and any input of 54-63 bytes can not get the expected output.
 
 算法文档详见国家密码管理局网站。
